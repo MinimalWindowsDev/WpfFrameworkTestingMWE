@@ -31,7 +31,7 @@ This project showcases:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/MinimalWindowsDev/WpfFrameworkTestingMWE
     cd WpfFrameworkTestingMWE
     ```
 2.  **Open in Visual Studio:**
