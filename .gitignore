@@ -1,0 +1,96 @@
+# =========================================
+# Visual Studio / .NET Framework / VS Code
+# =========================================
+
+# User-specific files and settings (VS, VS Code, Rider)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+
+# Build output folders
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages folder (Common for packages.config in .NET Framework)
+packages/
+# Exclude package source/build files if they are checked in, but ignore the downloaded packages themselves
+# !packages/**/*.cs
+# !packages/**/*.props
+# !packages/**/*.targets
+*.nupkg
+
+# NuGet temporary files (Less common for .NET Framework but good practice)
+# project.lock.json
+# project.assets.json
+
+# Test results and coverage reports
+[Tt]est[Rr]esult*/
+[Cc]overage*/
+*.trx
+*.coverlet.json
+*.codecov.yml
+*.coverage
+*.coveragexml
+*.dotcover
+
+# Fine Code Coverage specific cache/report files
+fccstorage/
+
+# Log files
+*.log
+logs/
+
+# Runtime / Environment specific files
+# appsettings.Development.json
+# secrets.json
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Linux
+*~
+
+# IDE backup files
+*.bak
+*.orig
+
+# Resharper specific
+*_i.cs
+*.DotSettings.user
+_ReSharper*/
+
+# Visual Studio cache files
+*.VC.db
+*.opensdf
+*.sdf
+*.psess
+*.vspx
+
+# ClickOnce files
+publish/
+
+# =========================================
+# Specific Tooling (Add as needed)
+# =========================================
+# Example: StyleCop
+# StyleCopReport.xml
+
+# Example: Fody weavers
+# FodyWeavers.xml will be committed, but FodyWeavers.xsd can be ignored
+# FodyWeavers.xsd

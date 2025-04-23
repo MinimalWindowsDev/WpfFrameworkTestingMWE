@@ -1,0 +1,30 @@
+﻿<Window x:Class="SimpleWpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleWpfApp"
+        mc:Ignorable="d"
+        Title="Simple WPF App"
+        Height="250"
+        Width="400">
+    <StackPanel Margin="20">
+        <TextBlock Text="Enter your name:"
+                   Margin="0,0,0,5" />
+        <!-- Add AutomationProperties.AutomationId for FlaUI -->
+        <TextBox x:Name="NameTextBox"
+                 Margin="0,0,0,10"
+                 AutomationProperties.AutomationId="NameTextBoxId" />
+        <!-- Add AutomationProperties.AutomationId for FlaUI -->
+        <Button x:Name="GreetButton"
+                Content="Greet"
+                Click="GreetButton_Click"
+                Margin="0,0,0,10"
+                AutomationProperties.AutomationId="GreetButtonId" />
+        <!-- Add AutomationProperties.AutomationId for FlaUI -->
+        <TextBlock x:Name="GreetingTextBlock"
+                   FontSize="16"
+                   AutomationProperties.AutomationId="GreetingTextBlockId"
+                   Text="Waiting for greeting..." />
+    </StackPanel>
+</Window>
